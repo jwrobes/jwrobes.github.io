@@ -1,0 +1,7 @@
+name: Jwrobes
+description: blog about technology and learning to code
+
+url: "http://jwrobes.github.io/"
+
+pygments: true
+permalinl: pretty
