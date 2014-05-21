@@ -56,3 +56,10 @@ a:visited {
   color: #96281B;
   font-weight: normal;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+	color: #D91E18;
