@@ -4,4 +4,5 @@ description: blog about technology and learning to code
 url: "http://jwrobes.github.io/"
 
 pygments: true
-permalinl: pretty
+permalink: /:year/:month/:day/:title.html
+
