@@ -52,4 +52,7 @@ body {
 	color: #22313F;
 }
 
-#
+a:visited {
+  color: #96281B;
+  font-weight: normal;
+}
