@@ -1,0 +1,9 @@
+---
+title: About Jwrobes
+layout: master
+---
+
+h2. About Jwrobes (Jonathan Wrobel)
+
+I am a new developer.  An old soul.  A dreamer.  A husband.  And one night years ago I lost a run off in a freestyle rap battle.  But I got the name jwrobes.  And I finally grown into it.
+
