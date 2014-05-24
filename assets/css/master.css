@@ -8,7 +8,7 @@ body {
 
 header {
 	background: #34495e;
-	padding: 40px;
+	padding: 30px;
 }
 
 #id {
@@ -17,6 +17,10 @@ header {
 
 .post {
 	padding: 40px;
+	border: black solid 1px;
+}
+
+.post:hover {
 	background: gray;
 }
 
@@ -26,8 +30,9 @@ header {
 	float: right;
 	padding-top: 35px;
 }
-
 	}
+
+
 
 /*body {
 	font-family: sans-serif;
