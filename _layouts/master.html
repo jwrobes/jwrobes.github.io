@@ -12,18 +12,26 @@
 
   <body>
     <header>
-  		<h1><a href="/">Jwrobes</a></h1>
-      <ul class = "inline-list">
-        <li><a href='/blog.html'>Blog</a></li>
-        <li><a href='/about.html'>About</a></li>
-        <li><a href='http://github.com/jwrobes' target='_blank' rel='me'>GitHub</a></li>
-        <li><a href='https://www.linkedin.com/pub/jonathan-wrobel/58/762/aa0' target='_blank' rel='me'>LinkedIn</a></li>
-        <li><a href='http://twitter.com/jzwrobes' target='_blank' rel='me'>Twitter</a></li>
-      </ul>
+      <div class="row">
+      <div class="logo large-3 column">
+  		  <h1><a href="/">Jwrobes</a></h1>
+      </div>
+      <div class="nav large-9 column">
+        <ul id= "nav-menu" class = "inline-list">
+          <li><a href='/blog.html'>Blog</a></li>
+          <li><a href='/about.html'>About</a></li>
+          <li><a href='http://github.com/jwrobes' target='_blank' rel='me'>GitHub</a></li>
+          <li><a href='https://www.linkedin.com/pub/jonathan-wrobel/58/762/aa0' target='_blank' rel='me'>LinkedIn</a></li>
+          <li><a href='http://twitter.com/jzwrobes' target='_blank' rel='me'>Twitter</a></li>
+        </ul>
+      </div>
+    </div>
     </header>  
-		  <div id="content">
-			 {{content}}
-		  </div>
+      <div class="row">
+  		  <div id="content" class = "large-12">
+  			 {{content}}
+  		  </div>
+      </div>
 		  <div id="footer">
 			
 		  </div>

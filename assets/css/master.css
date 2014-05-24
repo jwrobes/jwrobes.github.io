@@ -1,3 +1,27 @@
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+
+#nav-menu {
+	float: right;
+	padding-top: 35px;
+}
+
+	} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+body {
+	background: #34495e;
+}
+
+
+header {
+	background: #34495e;
+	padding: 30px;
+}
+
+#id {
+	background: white;
+}
+
 /*body {
 	font-family: sans-serif;
 	background: #ecf0f1;
