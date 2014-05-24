@@ -2,36 +2,40 @@
 
 <html>
 	<head>
-		    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jwrobes- {{ page.title }}</title>
-     <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" charset="utf-8"/>
-    <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/javascripts/jquery.github.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="/assets/css/master.css" type="text/css" media="screen" charset="utf-8"/>
+    <link rel="stylesheet" href="/assets/css/normalize.css" type="text/css" media="screen" charset="utf-8"/>
+    <link rel="stylesheet" href="/assets/css/foundation.css" type="text/css" media="screen" charset="utf-8"/>
   </head>
 
   <body>
-    <div id="wrapper">
-      <div id="header">
-  		  <h1>Jwrobes</h1>
-  		  <h2>Coding one bug at a time</h2>
-      </div>
-      <div id='menu'>
-        <ul>
-          <li><a href='/'>Home</a></li>
-          <li><a href='/blog.html'>Blog</a></li>
-          <li><a href='/about.html'>About</a></li>
-          <li><a href='http://github.com/jwrobes' target='_blank' rel='me'>GitHub</a></li>
-          <li><a href='https://www.linkedin.com/pub/jonathan-wrobel/58/762/aa0' target='_blank' rel='me'>LinkedIn</a></li>
-          <li><a href='http://twitter.com/jzwrobes' target='_blank' rel='me'>Twitter</a></li>
-        </ul>
-      </div> 
+    <header>
+  		<h1><a href="/">Jwrobes</a></h1>
+      <ul class = "inline-list">
+        <li><a href='/blog.html'>Blog</a></li>
+        <li><a href='/about.html'>About</a></li>
+        <li><a href='http://github.com/jwrobes' target='_blank' rel='me'>GitHub</a></li>
+        <li><a href='https://www.linkedin.com/pub/jonathan-wrobel/58/762/aa0' target='_blank' rel='me'>LinkedIn</a></li>
+        <li><a href='http://twitter.com/jzwrobes' target='_blank' rel='me'>Twitter</a></li>
+      </ul>
+    </header>  
 		  <div id="content">
 			 {{content}}
 		  </div>
 		  <div id="footer">
 			
 		  </div>
-    </div>  
+ 
+
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
   </body>
 
 </html>
