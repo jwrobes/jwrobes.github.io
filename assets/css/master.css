@@ -1,12 +1,5 @@
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
-
-#nav-menu {
-	float: right;
-	padding-top: 35px;
-}
-
-	} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+ /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 body {
 	background: #34495e;
@@ -21,6 +14,25 @@ header {
 #id {
 	background: white;
 }
+
+.post {
+	padding: 40px;
+	border: black solid 1px;
+}
+
+.post:hover {
+	background: gray;
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+
+#nav-menu {
+	float: right;
+	padding-top: 35px;
+}
+	}
+
+
 
 /*body {
 	font-family: sans-serif;
