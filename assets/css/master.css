@@ -11,19 +11,48 @@ header {
 	padding: 30px;
 }
 
-#id {
+.posts {
 	background: white;
 }
 
-.post {
-	padding: 40px;
+.container {
+	background: white;
+}
+
+.post {http://rsms.me/2012/05/29/hue-factorial-fib.html
 	border: black solid 1px;
 }
 
-.post:hover {
-	background: gray;
+.padded_content {
+	display: block;
+	padding: 30px;
+	border: red solid 2px;
+}
+/*
+.posts a:hover {
+	background: blue;
+	color: white;
+}*/
+
+a.post {
+	display: block;
+	color: black;
+	width: 50%;
+	float: left;
 }
 
+a.post:hover {
+	background: blue;
+	color: white;
+}
+
+.padded_content:hover {
+	background: blue;
+}
+
+#content {
+	background: white;
+}
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { 
 
 #nav-menu {
