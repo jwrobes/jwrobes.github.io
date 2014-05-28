@@ -31,16 +31,14 @@
       </div>
     </div>
     </header>  
-      <div class="row container">
-  		  <div id="content" class = "large-12">
   			 {{content}}
-  		  </div>
-      </div>
 		  <div id="footer">
 			
 		  </div>
- 
-
+   <script type="text/javascript">    
+    window.addEventListener("DOMContentLoaded",BlogController(), false)
+    window.addEventListener('resize', function() { BlogController()}, false);
+  </script>
 
   </body>
 

@@ -13,14 +13,17 @@ header {
 
 .posts {
 	background: white;
+	
 }
 
 .container {
 	background: white;
+	
 }
 
-.post {http://rsms.me/2012/05/29/hue-factorial-fib.html
-	border: black solid 1px;
+.breaker {
+	background: white;
+	clear: both;
 }
 
 .padded_content {
@@ -39,6 +42,7 @@ a.post {
 	color: black;
 	width: 50%;
 	float: left;
+	background: white;
 }
 
 a.post:hover {
@@ -46,8 +50,17 @@ a.post:hover {
 	color: white;
 }
 
+.break {
+	background: white;
+}
+
 .padded_content:hover {
 	background: blue;
+}
+
+#recent-posts {
+	background: white;
+	background-color: white;
 }
 
 #content {
@@ -65,6 +78,7 @@ a.post:hover {
 
 a.post {
 	width: 100%;
+
 }
 	}
 
