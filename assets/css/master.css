@@ -61,6 +61,12 @@ a.post:hover {
 }
 	}
 
+@media only screen and (max-width: 640px){ 
+
+a.post {
+	width: 100%;
+}
+	}
 
 
 /*body {
