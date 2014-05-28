@@ -1,13 +1,3 @@
-(function(f) {
-	var onload = function(f) {
-		window.addEventListener('DOMContentLoaded', f, false);
-	};
-	onload(function(){
-		window.addEventListener('resize',f, false)
-		BlogController()
-	})
-})
-
 
 /*******************************************/
 // CONTROLLER
