@@ -2,11 +2,11 @@
  /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 body {
-	background: #34495e;
+	background: #C5EFF7;
 }
 
 header {
-	background: #34495e;
+	background: #C5EFF7;
 	padding: 30px;
 }
 
@@ -20,16 +20,11 @@ header {
 }
 
 #recent-posts {
-	background: #89C4F4;
-	background-color: #89C4F4;
-}
-
-#content {
-	background: #89C4F4;
+	background: white;
 }
 
 .breaker {
-	background: #89C4F4;
+	background: white;
 	clear: both;
 }
 
@@ -43,7 +38,7 @@ a.post {
 	color: black;
 	width: 50%;
 	float: left;
-	background: #89C4F4;
+	background: white;
 }
 
 a.post:hover {
