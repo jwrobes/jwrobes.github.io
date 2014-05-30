@@ -79,9 +79,7 @@ BlogView.prototype = {
 						if (oneColumnOnly()) {
 							node.style.height = null;
 						}	else {
-								debugger
 								node.style.height = (Math.max(col1_y_position, col0_y_position) - max_y_of_first_row) + 'px'
-								debugger
 						}
 						break
 					}			
