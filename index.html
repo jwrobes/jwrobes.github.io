@@ -2,17 +2,19 @@
 
 layout: master
 title: The Story of how Jonathan became Jwrobes
-full_posts: 5
+full_posts: 20
 ---
 
-
-
-<div class='home_box' id='home_left'>
-  <h2>Latest Blog Post <span class="more">(<a href='/blog.html'>More</a>)</span></h2>
-  
-  <div class='post'>
-    <h1><a href='{{site.posts.first.url}}'>{{site.posts.first.title}}</a></h1>
-    <div class='body'>{{ site.posts.first.content }}</div>
-  </div>
-
+<div class="posts">
+	<div class="container full-bleed" id= "recent-posts">
+		{% for post in site.posts limit: full_posts %}<a href='{{post.url}}'class='post'>
+	  	<div class="padded_content">	
+		  	<div class="title">{{post.title}}</div>
+		    <span class='date'>{{post.date | date_to_string}}</span>
+		    <span class='body'>{{post.description}}</span>  
+		  </div>
+		</a>{% endfor %}
+		<div class="breaker"></div>
+		<div class="end"><a href="/archive.html">More..</a></div>
+	</div>
 </div>

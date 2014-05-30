@@ -1,0 +1,18 @@
+---
+layout: master
+title: Archive
+---
+
+<div class="posts">
+	<div class="container full-bleed" id= "archive">
+		<ul>
+		{% for post in site.posts %}
+			<li><a href='{{post.url}}'class='post_title'>	
+					<span class="date">{{post.date | date: "%-d %B %Y"}}</span> - 
+			  	<span class="title">{{post.title}}
+			  	</span>
+			</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

@@ -49,6 +49,10 @@ a.post:hover {
 	background: #22313F;
 }
 
+.end {
+	padding: 8px 8px 15px 8px;
+	text-align: center;
+}
 
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { 
 
