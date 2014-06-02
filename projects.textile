@@ -1,0 +1,13 @@
+---
+title: Projects
+layout: master
+---
+
+h2. Projects
+
+h4. I am a new developer.  So I don't have too many projects yet.  But I want an entire page dedicated to all my future projects.  You must have something aspire to.  Don't you think?
+
+* "Yobs":"http://yobs.herokuapp.com" - a demo portal for non-profit youth job programs in SF to connect to youth.  This is my final group project for DBC.  There's a lot of work that needs to be done to get it spiffy.  But I am proud of the mobile first design. "(GH)":https://github.com/fiery-skippers-2014/Yobs
+* Moments - first solo project.  A web app that will remind you five times a day to take a moment to meditate.  I wanted to play with devise, sidekiq, twilio, reddis and more.  I also want reminders to take moments. "(GH)":https://github.com/jwrobes/moments
+
+
