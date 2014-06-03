@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Background Jobs, Multi-threading, Redis and the magic of time
+title: Background Jobs and the magic of time
 description: Thoughts on my first solo mvp and the joys of playing with new technologies on personal projects.  
 ---
 

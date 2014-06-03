@@ -1,13 +1,15 @@
 ---
 title: Projects
-layout: master
+layout: page
 ---
+
 
 h2. Projects
 
-h4. I am a new developer.  So I don't have too many projects yet.  But I want an entire page dedicated to all my future projects.  You must have something aspire to.  Don't you think?
+h5. I am a new developer.  So I don't have too many projects yet.  But I want an entire page dedicated to all my future projects.  You must have something aspire to.  Don't you think?
 
-* "Yobs":"http://yobs.herokuapp.com" - a demo portal for non-profit youth job programs in SF to connect to youth.  This is my final group project for DBC.  There's a lot of work that needs to be done to get it spiffy.  But I am proud of the mobile first design. "(GH)":https://github.com/fiery-skippers-2014/Yobs
-* Moments - first solo project.  A web app that will remind you five times a day to take a moment to meditate.  I wanted to play with devise, sidekiq, twilio, reddis and more.  I also want reminders to take moments. "(GH)":https://github.com/jwrobes/moments
+* "Yobs":http://yobs.herokuapp.com - A demo portal for non-profit youth job programs in SF to connect to youth over cell phones.  This is my final group project for DBC.  There's a lot of work that needs to be done to get it spiffy.  But I am proud of the mobile first design. "(GH)":https://github.com/fiery-skippers-2014/Yobs
 
+* Moments - My first solo project.  A web app that will remind you five times a day to take a moment to meditate.  I wanted to play with devise, sidekiq, twilio, reddis and more.  I also want reminders to take moments. "(GH)":https://github.com/jwrobes/moments
 
+* Moments - This blog?  Does it count?  I want to give props to the inspiration for the blog "here.":http://rsms.me I don't know Rasmus, but I like his style.  So I stole it. I also took his code and butchered it for my own site so I could understand it.  Thank you Rasmus.  Thank you.  You can see my code  here "(GH)":https://github.com/jwrobes/jwrobes.github.io and then his here "(GH)":https://github.com/rsms/rsms.github.com

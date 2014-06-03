@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="/assets/css/foundation.css" type="text/css" media="screen" charset="utf-8"/>
     <link rel="stylesheet" href="/assets/css/master.css" type="text/css" media="screen" charset="utf-8"/>
     <script src="/assets/js/blog.js" type="text/javascript" charset="utf-8"></script>
-   
-
-
-
   </head>
 
   <body>
@@ -26,26 +22,19 @@
           <li><a href='/archive.html'>Archive</a></li>
           <li><a href='/about.html'>About</a></li>
           <li><a href='/projects.html'>Projects</a></li>
-          <li><a href='http://github.com/jwrobes' target='_blank' rel='me'>GitHub</a></li>
-          <li><a href='https://www.linkedin.com/pub/jonathan-wrobel/58/762/aa0' target='_blank' rel='me'>LinkedIn</a></li>
-          <li><a href='http://twitter.com/jzwrobes' target='_blank' rel='me'>Twitter</a></li>
         </ul>
       </div>
     </div>
     </header>  
     <div class="row">
-      <div class="large-12 column container">
+      <div class="large-12 column container full-bleed">
   			 {{content}}
       </div>   
     </div>    
-		  <div id="footer">
-			
-		  </div>
-   <script type="text/javascript">    
-    window.addEventListener("DOMContentLoaded",BlogController(), false)
-    window.addEventListener('resize', function() { BlogController()}, false);
-  </script>
-
+	  <div id="footer"></div>
+    <script type="text/javascript">    
+      window.addEventListener("DOMContentLoaded",BlogController(), false)
+      window.addEventListener('resize', function() { BlogController()}, false);
+    </script>
   </body>
-
 </html>
