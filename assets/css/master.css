@@ -10,14 +10,27 @@ header {
 	padding: 30px;
 }
 
+div.container {
+	background: white;
+	padding: 50px;
+}
+
+div.container.full-bleed {
+  padding:0;
+}
+
+.logo {
+	width: 40%;
+}
+
+.nav {
+	width: 40%;
+}
+
 .posts {
 	background: white;
 }
 
-.container {
-	background: white;
-	max-width: 885px;
-}
 
 #recent-posts {
 	background: white;
@@ -49,12 +62,22 @@ a.post:hover {
 	background: #22313F;
 }
 
+.title {
+	font-weight: bold;
+}
+
+.date {
+	color: gray;
+	padding-right: 10px;
+}
+
+
 .end {
-	padding: 8px 8px 15px 8px;
+	padding: 15px 8px 15px 8px;
 	text-align: center;
 }
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+@media only screen and (min-width: 640px) and (max-width: 90em) { 
 
 #nav-menu {
 	float: right;
@@ -66,7 +89,19 @@ a.post:hover {
 
 a.post {
 	width: 100%;
+	border-top: solid 2px #C5EFF7;
+	border-bottom: solid 2px #C5EFF7;
 }
+.logo {
+	width: 100%;
+}
+
+.nav {
+	width: 100%;
+}
+
+
+
 	}
 
 
