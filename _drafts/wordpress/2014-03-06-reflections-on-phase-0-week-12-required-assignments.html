@@ -1,0 +1,48 @@
+---
+layout: post
+title: Reflections on Phase 0 Week 12 Required Assignments
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _publicize_pending: '1'
+  publicize_google_plus_url: https://plus.google.com/103549812284773137870/posts/R3copkgCj1w
+  _wpas_done_6507604: '1'
+  _publicize_done_external: a:1:{s:11:"google_plus";a:1:{s:21:"103549812284773137870";b:1;}}
+  publicize_tumblr_url: http://jwrobes.tumblr.com.tumblr.com/post/78764339954
+  _wpas_done_6507610: '1'
+author: 
+---
+<h3>1. Don't forget parenthesis when using Case</h3>
+<pre>when (50..100) puts "this is a test" 
+when (30..49) puts "Cry like an eagle" 
+else puts "Smiling flowers sing loud" 
+end</pre>
+<h3>2. Code Analysis:</h3>
+<p style="padding-left:30px;">I'm finding that both for analysis of code and psuedocode I tend to prefer language that is well structured, intentionally formatted.  It should have short sentences.  I craft emails so that someone can get the point in 20 seconds or less.</p>
+<p style="padding-left:30px;">I don't really like reading through paragraphs of analysis for psuedocode.  I like bulleted lists.  This may be just a personal preference, but I think there is something to it.  If the writer has been able to organize the thoughts in clear sequential lists and took the time to strategically use formatting, then I believe they have a better grasp on what they are communicating.</p>
+<p style="padding-left:30px;">Ironically, I have not done this for many of my blog posts.</p>
+<h3>3. When should you pass in a default value and when should you not?</h3>
+<p style="padding-left:30px;">When setting up an array as an argument, when is a time for setting the array to a blank array and when is it not a good idea, or unnecessary.</p>
+<h3>4. New Array Method to Understand from Nina's Submission: rindex</h3>
+<p style="padding-left:30px;">This method checks if the argument passed into it is contained in array and returns the index of the LAST match in the array.  Nina used the truthiness of the number vs nil to test if there was a match.  And then if there was, she returned the index, and if not she returned the -1 position.</p>
+<p style="padding-left:30px;">Example of it from ruby docs is this</p>
+<pre style="padding-left:30px;">a = [ "a", "b", "b", "b", "c" ]
+a.rindex("b")             #=&gt; 3
+a.rindex("z")             #=&gt; nil
+a.rindex { |x| x == "b" } #=&gt; 3
+end</pre>
+<h3>5. I have not been very good about reviewing other people's code to learn more.  This must change.</h3>
+<p style="padding-left:30px;">There are at least two reasons for this.  The first is just a time issue, I get through the challenges and  feel compelled to move on to the next ones.  I have had to do the work at nights and weekends up to this point, so it was a challenge sometimes just getting the challenges done in time.</p>
+<p style="padding-left:30px;">The next reason is something I need to address.  I have a small resistance to reading other people's code.  There is a little bit of fear that I'll discover those who did it better then me and mistakes that I made.  This is all just ego stuff.  And this is something I want to grow out of.  I know intellectually that there is immense value in this, and that picking up tricks and code habits from my fellow classmates and ultimately other programmers, is going to be vital to my growth.  And so I am going to make a habit of pushing past that minor block and learn all I can from my brilliant bootcampers.</p>
+<h3>6. Instead of case when, try return if, see example below:</h3>
+<pre>def letter_grade
+   return "A" if average &gt;= 90
+   return "B" if average &gt;= 80
+   return "C" if average &gt;= 70
+   return "D" if average &gt;= 60
+   return "F" if average &lt; 60
+   end
+end</pre>

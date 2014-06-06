@@ -1,0 +1,59 @@
+---
+layout: post
+title: If Ruby != Javascript && Javascript >= Ruby... then what?
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _publicize_pending: '1'
+  _rest_api_published: '1'
+  _rest_api_client_id: '-1'
+author: 
+---
+<p>Alright so Branching is cool.  It means you have options.  You can do booga booga if there is a strawberry in you hand and you can do waaka waaka if there is a lime.  Basically, it's at the heart of all programming languages.  And so it's at the heart of Javascript.  </p>
+<p>Look I know how it works in Ruby.  And guess what.  It works almost the exact way in Javascript.  The one difference is this:</p>
+<p>Ruby == != Javascript ==</p>
+<p>Actually Ruby == == Javascript === (In Ruby)</p>
+<p>And Ruby == === Javascript === (In Javascript)</p>
+<p>And all of that is just a convoluted way of saying you need three equals in Javascript to truly test if things are equal.  </p>
+<p>Javascript has a double equals, but it does something called type conversions that makes it not a pure test. </p>
+<p>Everything else is the same.  You got all the usual suspects:</p>
+<p>!= &gt; &lt; &gt;+ &lt;= </p>
+<p>and then there is the Logical Operators.  These are like smooth operators, because they are so smooth they let you combine the other comparison operators together into a combo of if this or this and that or this....</p>
+<p>They are the same.  I know them.  It's:</p>
+<p>&amp;&amp; and II </p>
+<p>Lastly, there is the truthiness and falsiness of various objects.  You can treat different objects as straight booleans.  Meaning </p>
+<p>If "Dog" === true</p>
+<p>That's because any string that is not blank or empty === true</p>
+<p>But if "" === false</p>
+<p>Here is the run down:</p>
+<p>number &gt; 0 === true</p>
+<p>string with length &gt; 0 === true</p>
+<p>defined object === true</p>
+<p>true === true (wow...takes a genius to get that one!)</p>
+<p>And the others:</p>
+<p>undefined === false</p>
+<p>null === false</p>
+<p>Number objects with 0 or NAN === false</p>
+<p>"" === false</p>
+<p>false === false</p>
+<p>And that's that!</p>
+<p>So how do you use these amazing things with this comparison operators and this logical operators? </p>
+<p>You just put them together with the If, else if and the else statements.</p>
+<p>if (Jonathan === 'cool') { console.log("Jonathan likes this!");}</p>
+<p>else if (Jonathan === 'nerd') {console.log("Jonathan really likes this more!";}</p>
+<p>else {console.log("Jonathan doesn't know what to like");};</p>
+<p>Of course you should throw in some logical operators for some fun, but meh...</p>
+<p>So that's the basics.  The big thing is that Ruby has a lot things that javascript does not.  This includes:</p>
+<p>the unless logical operator.  In Javascript you have to use  !=.  </p>
+<p>So instead of </p>
+<p>unless 4 &gt; x {do this stuff}</p>
+<p>You have to do this </p>
+<p>if (! (4 &gt; x) ) { do this stuff;};</p>
+<p>So that's the basics.   I'm out of there.  </p>
+<p> </p>
+<p>It also doesn't allow for those cool one line tests like this:</p>
+<p>puts "Cheese" if 6 &gt; 5</p>
+<p> </p>

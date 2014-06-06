@@ -1,0 +1,73 @@
+---
+layout: post
+title: Murder was the CASE that they gave me
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _publicize_pending: '1'
+author: 
+---
+<p>For some reason coding makes me think of rappers and rap lyrics.  I think my ultimate goal now is to get into a freestyle ruby coding battle and win it like Eminem did in 8 mile.</p>
+<p>My METHODs are so CLASSy, that you don't need HASH!</p>
+<p>Float STRINGS in terminal born again in the BASH!</p>
+<p>That's an original by the way.  off the top of my head.  In writing it I realized I don't really understand what a BASH is.  Well it turns out that Bash is just the command processor that allows us to type in commands.  It's basically the terminal.</p>
+<p>Alright, back to the CASE because this was something I learned and forgot.  So I want to put it out there so I don't forget again, cause it's way cooler then using a plain old If Else End combo.</p>
+<p>So what is the Case? It's basically a faster way to compare an input to a lot of different things, and allows you to not have to write the if, elsif, elsif, elsif, and else and an end.</p>
+<p>So when you write a string of If statements you start with the first comparsion</p>
+<p>if x &lt; 100</p>
+<p><em># this checks to see if x is less than 100 and if it is then it does whatever is below it</em></p>
+<p>do something</p>
+<p>#<em> we will only do this something if x &lt; 100</em></p>
+<p>elsif y &gt; 100</p>
+<p><em># now if x was not below 100 that means we didn't do that something above, and so we now test to see if y is greater than 100, if it is then we'll do whatever is below</em></p>
+<p>do a different thing</p>
+<p># <em>we'll only do a different thing if y is greater than a 100 AND if x was not less than 100</em><i><br />
+</i></p>
+<p>else</p>
+<p>#<em>This means that if we didn't do something or the other thing because then we'll always do whatever is below this</em></p>
+<p>do the best things</p>
+<p>#<em>So we got to the best thing because we didn't pass the first two tests and we ended up here</em></p>
+<p>end</p>
+<p>So in this example we used a different comparison for x and y, but for many of these you'll compare the same thing against a lot different things.  So what if I had to compare x to see if it was "Yes" to see if it was "No" to see if it was "Maybe" to see if it was "Shut Up!" to see if it was "I'm not talking to you!" and so on and so on.</p>
+<p>I would have to basically type this over and over:</p>
+<p>if x == "Yes"</p>
+<p>do BLAH</p>
+<p>elsif x == "No"</p>
+<p>do BLEAH</p>
+<p>elsif x == "Maybe"</p>
+<p>do ROWR</p>
+<p>elsif x == "Shut up!"</p>
+<p>do SHWAPPP!</p>
+<p>else</p>
+<p>do PONK!</p>
+<p>end</p>
+<p>You see there I had to type x over and over again, and compare it to something over and over again.  This is got to be common in programming, so because everyone says programmers are lazy and don't like to repeat themselves, they came up with a slightly easier way to do this that save a little typing, which in the big picture probably saves a lot of time both for the programmer and the computer! Win Win!</p>
+<p>So how would I do the last thing with CASE?</p>
+<p>Well you just state what it is you're comparing everything to once, and then you just list all the different comparisons you want to make followed what should happen if any of them should be true.  Like this:</p>
+<p>case x</p>
+<p>when "Yes"</p>
+<p>do BLAH</p>
+<p>when "No"</p>
+<p>do BLEAH</p>
+<p>when "Maybe"</p>
+<p>do ROWR</p>
+<p>when "Shut Up!"</p>
+<p>do SHWAPP</p>
+<p>else</p>
+<p>do PONK!</p>
+<p>end</p>
+<p>You see I didn't have to write x over and over again, and I can actually test a bunch of things together, a lot of || like this</p>
+<p>when "Yes", "Maybe", "Shut Up!"</p>
+<p>do LEAVE ME ALONE</p>
+<p>That well give you the leave me alone response if any of those three responses are true.</p>
+<p>So if Snoop Dog was going to write a very politically incendiary program that would reflect the current state of the justice in the U.S.</p>
+<p>case crime</p>
+<p>when "White Collar", "White Guy", "Billion Dollar Scam"</p>
+<p>give probation</p>
+<p>when "Black", "Poor", "Misdemeanor"</p>
+<p>give fifteen years</p>
+<p>end</p>
+<p>Yes, Murder was the Case they gave me!</p>
