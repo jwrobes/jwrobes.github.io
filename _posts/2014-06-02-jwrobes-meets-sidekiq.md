@@ -29,7 +29,7 @@ Highlights of the day included:
 * getting exposed to the challenges of scheduling with different time zones
 * successfully setting up my random moment for today
 
-![First Text](http://minus.com/i/bjxoJH7ZguMeu)
+![First Text](http://i.minus.com/ibjxoJH7ZguMeu.jpg)
 
 Goals for today:
 
