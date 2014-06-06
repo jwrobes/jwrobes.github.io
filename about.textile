@@ -1,9 +1,22 @@
 ---
 title: About Jwrobes
-layout: master
+layout: page
 ---
 
-h2. About Jwrobes (Jonathan Wrobel)
+h2. About J-Wrobes 
 
-I am a new developer.  An old soul.  A dreamer.  A husband.  And one night years ago I lost a run off in a freestyle rap battle.  But I got the name jwrobes.  And I have finally grown into it.
+h5. (_aka Jonathan Wrobel_)
 
+I am a new developer.  An old soul.  A dreamer.  A husband.  An adventurer.  A film nerd. 
+
+And one night many years ago I lost a run off in a freestyle rap battle in downtown Providence, RI.  
+I lost the battle but I walked off with name j-wrobes.  (That's pronounced J - Robes with a silent W) 
+And after years as Jonathan I am starting to grow into my own stage name.
+
+Drop the mic...
+
+h2. Find Me Here...There...Everywhere?
+
+* "GitHub":http://github.com/jwrobes
+* "LinkedIn":https://www.linkedin.com/pub/jonathan-wrobel/58/762/aa0
+* "Twitter":http://twitter.com/jzwrobes
