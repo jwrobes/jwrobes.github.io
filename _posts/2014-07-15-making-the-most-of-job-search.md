@@ -51,6 +51,3 @@ It's a nice schedule, packed with coding.  Only a little resume sending out, but
 I'll keep track of all the work using the Tomato system to take 5 minute breaks every 25 minutes and 15 minute breaks for fruit every two hours.
 
 This is about taking control of my own job search and getting good at it.  Let's do this!
-
-
-
