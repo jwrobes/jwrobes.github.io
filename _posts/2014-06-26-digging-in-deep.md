@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hacky Hackathon at DBC
+title: Digging Deeper into everything...
 description: Post Bootcamp the biggest challenge is choosing what to focus my time on.  The tension between building things and digging deeper into learning the fundamentals is the main conflict.  And then there is the humbling daily practice of becoming a touch typer.
 ---
 
