@@ -30,7 +30,7 @@ But today my wife woke up and shared some tidbits of knowledge she got from a pr
 Duh!  These are simple things.  I've been doing them only half way.   I need to do them fully.  
 
 Suddenly I'm seeing this job search not as a burden, but as a way to really strengthen my confidence and self structure.  
->#I don't have to hate job search, I just need to get good at it.  
+>##I don't have to hate job search, I just need to get good at it.  
 
 And so that's the plan.  
 
@@ -45,6 +45,8 @@ Today's schedule is this:
 	5:00 - Return to Moments Project
 	6:30 - dinner and coding with Gabe or Oakland Meetup
 	9:00 - Day is done -- watch the Americans 
+
+<br>
 
 It's a nice schedule, packed with coding.  Only a little resume sending out, but it's a step in the right direction.  Also I think after meeting with Robert I'll be in a good place to send out some resumes.  
 
