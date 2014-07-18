@@ -21,9 +21,7 @@ So here's today's schedule, the new thing I need to incorporate is some serious 
 	1:00 - lunch
 	1:30 - moments app
 	3:30 - interview prep
-	5:30 - send out resumes
-	6:00 - Return to Moments Project
-	7:00 - meet up with friend (possibly)
-	9:00 - Moments app (2 hours)
+	5:30 - moments app
+	7:00 - go see dance performance with wifey
 
 ```
