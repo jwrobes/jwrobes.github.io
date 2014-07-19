@@ -20,23 +20,16 @@ And all of that is a precursor for the real work of making it load faster.  The 
 
 So...there's a ton left to do.
 
-So here's today's schedule:
-
-
 Today's schedule is this:
 
-```
-
-	9:00 - Typing Practice
-	9:30 - Phone call
-	10:30 - Job Search and emails
-	11:00 - blog
-	11:30 - moments app
-	12:30 - run
-	1:30 - Travel to and meet recruiter
-	4:00 - send out resumes
-	6:00 - Return to Moments Project
-	7:00 - meet up with friend (possibly)
-	9:00 - Moments app (2 hours)
-
-```
+		9:00 - Typing Practice
+		9:30 - Phone call
+		10:30 - Job Search and emails
+		11:00 - blog
+		11:30 - moments app
+		12:30 - run
+		1:30 - Travel to and meet recruiter
+		4:00 - send out resumes
+		6:00 - Return to Moments Project
+		7:00 - meet up with friend (possibly)
+		9:00 - Moments app (2 hours)

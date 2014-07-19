@@ -12,16 +12,16 @@ On a complete side note.  Last night I caught up with my buddy Kelley and we saw
 
 So here's today's schedule, the new thing I need to incorporate is some serious daily technical interview prep.  I'm going to get some interviews soon and I need to be ready.
 
-```
+Today's schedule is this:
 
-	8:00 - typing practice
-	8:45 - Blogging
-	9:30 - Tennis
-	11:30 - send out applications and emails
-	1:00 - lunch
-	1:30 - moments app
-	3:30 - interview prep
-	5:30 - moments app
-	7:00 - go see dance performance with wifey
+		8:00 - typing practice
+		8:45 - Blogging
+		9:30 - Tennis
+		11:30 - send out applications and emails
+		1:00 - lunch
+		1:30 - moments app
+		3:30 - interview prep
+		5:30 - moments app
+		7:00 - go see dance performance with wifey
 
-```
+

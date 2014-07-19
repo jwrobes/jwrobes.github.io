@@ -36,15 +36,15 @@ And so that's the plan.
 
 Today's schedule is this:
 
-	9:00 - Typing Practice 
-	9:30 - Blog
-	10:00 - Moments Project
-	12:00 -  Lunch and run around the lake
-	1:30 - Meet with Robert to catch up and maybe get some leads on jobs
-	3:30 - Send out resumes
-	5:00 - Return to Moments Project
-	6:30 - dinner and coding with Gabe or Oakland Meetup
-	9:00 - Day is done -- watch the Americans 
+		9:00 - Typing Practice 
+		9:30 - Blog
+		10:00 - Moments Project
+		12:00 -  Lunch and run around the lake
+		1:30 - Meet with Robert to catch up and maybe get some leads on jobs
+		3:30 - Send out resumes
+		5:00 - Return to Moments Project
+		6:30 - dinner and coding with Gabe or Oakland Meetup
+		9:00 - Day is done -- watch the Americans 
 
 <br>
 

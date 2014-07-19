@@ -15,14 +15,15 @@ I pretty much stuck to yesterday's schedule except I didn't make it to Oakland m
 
 Today's schedule is this:
 
-	6:45 - Blog
-	8:00 - Swift Study Meetup group in SF
-	10:00 - Resumes and Contact Emails
-	12:00 -  Lunch and run around the lake
-	1:30 - Moments project work
-	4:00 - Catch up with buddy (3 hours)
-	7:00 - Dinner
-	8:00 - Return to Moments Project (2 hours)
+		6:45 - Blog
+		8:00 - Swift Study Meetup group in SF
+		10:00 - Resumes and Contact Emails
+		12:00 -  Lunch and run around the lake
+		1:30 - Moments project work
+		4:00 - Catch up with buddy (3 hours)
+		7:00 - Dinner
+		8:00 - Return to Moments Project (2 hours)
+
 <br>
 
 This schedule could be changed up a bit because catching up with buddy may change and I might get out to either pick up a standing desk tonight or go to Javascript meetup.
